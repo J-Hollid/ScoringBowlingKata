@@ -10,7 +10,6 @@ namespace ScoringBowlingKata
     {
         private Game TestGame;
 
-
         /// <summary>
         /// Setup a new Game object for each test.
         /// </summary>
