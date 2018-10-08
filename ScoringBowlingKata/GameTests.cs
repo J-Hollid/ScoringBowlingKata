@@ -16,7 +16,7 @@ namespace ScoringBowlingKata
         [TestCase(new int[20] { 3, 3, 3, 0, 0, 0, 0, 0, 2, 5, 6, 2, 2, 5, 5, 3, 3, 5, 3, 3 }, ExpectedResult = 53, Description = "Test no strikes/spares.")]
         public int TestScore(int[] rolls)
         {
-            // Input roles.
+            // Input rolls.
             foreach (int roll in rolls)
             {
                 TestGame.Roll(roll);
