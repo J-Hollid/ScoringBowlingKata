@@ -17,7 +17,15 @@ namespace ScoringBowlingKata
 
         public int Score()
         {
-            return 0;
+            int total = 0;
+
+            // Iterate through all of the rolls recorded in this instance of the class.
+            for (int i = 0; i < Rolls.Count; i++)
+            {
+                total = total + Rolls[i];
+            }
+
+            return total;
         }
     }
 }
