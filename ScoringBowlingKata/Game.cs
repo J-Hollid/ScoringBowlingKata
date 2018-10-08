@@ -2,7 +2,7 @@
 {
     public class Game
     {
-        public void roll(int pins)
+        public void Roll(int pins)
         {
 
         }
